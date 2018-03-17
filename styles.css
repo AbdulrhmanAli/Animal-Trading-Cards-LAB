@@ -1,27 +1,32 @@
 	#container { 
-    border-style: outset;
-    padding-left: 50px;
-    padding-Right: 50px;
+    border: solid;
+    border-style: solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px;
 }
 
 	#card{
+    border: solid;
 	font-family: inherit;  
-    border: 2px groove ;
     border-radius: 12px;
     padding-left: 5px;
-    
+    font-style: italic;   
+    font-weight: bold;
 }
+
+    .animal-info { 
+      
+} 
 
 	#interesting-fact{
 	font-weight: bold;
-    font-style: italic;   
 }
-
-	#facts{
-    font-style: italic;
+    
+    #facts{
+    list-style-type: none;
 }
 
 	#summary{
-     
+     font-weight: normal;
+     border: 2px;
 }
